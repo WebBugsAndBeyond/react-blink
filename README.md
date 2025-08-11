@@ -19,5 +19,9 @@ The ```timeout``` prop defines the blink tag timer effect in milliseconds. The d
 
 The ```smoothing``` prop defines the smoothing effect which will change the CSS ```transition-timing-function``` property value. See the ```src/components/Blink.tsx``` and ```src/components/Blink.css``` files for details.
 
+## Usage In Your Own Project
+
+To use the Blink component in your own project simply copy the TypeScript and CSS files into your own project as appropriate (```src/components/Blink.tsx```, and ```src/components/Blink.css```).
+
 ## Coming soon...Marquee and StatusBarMarquee!!!
 
