@@ -1,0 +1,34 @@
+.blink-component {
+    --blink-timeout: .5s;
+    --blink-timing: linear;
+    transition-property: opacity;
+    transition-duration: var(--blink-timeout);
+    transition-timing-function: var(--blink-timing);
+}
+.blink-component--visible {
+    opacity: 1;
+}
+.blink-component--invisible {
+    opacity: 0;
+}
+.blink-component--linear {
+    --blink-timing: linear;
+}
+.blink-component--ease {
+    --blink-timing: ease;
+}
+.blink-component--step-start {
+    --blink-timing: step-start;
+}
+.blink-component--step-end {
+    --blink-timing: step-end;
+}
+.blink-component--ease-in {
+    --blink-timing: ease-in;
+}
+.blink-component--ease-out {
+    --blink-timing: ease-out;
+}
+.blink-component--ease-in-out {
+    --blink-timing: ease-in-out;
+}
