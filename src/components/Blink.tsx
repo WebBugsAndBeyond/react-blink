@@ -39,7 +39,7 @@ export default function Blink({
             setVisible(!visible);
         }, timeout);
         return () => window.clearTimeout(timer);
-    }, [visible]);
+    }, [visible, timeout]);
     return (
         <span className={blinkCSSClassName}>
             {children}
