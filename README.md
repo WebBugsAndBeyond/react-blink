@@ -23,5 +23,16 @@ The ```smoothing``` prop defines the smoothing effect which will change the CSS 
 
 To use the Blink component in your own project simply copy the TypeScript and CSS files into your own project as appropriate (```src/components/Blink.tsx```, and ```src/components/Blink.css```).
 
-## Coming soon...Marquee and StatusBarMarquee!!!
+## Marquee Components
+
+There are two scrolling marquee components
+
+* Marquee: scrolling text marquee.
+* DocumentTitleMarquee: scrolling title bar text marquee.
+
+To use them provide a positive integer for the ```timeout```, and a string for the ```message``` prop.
+
+The scrolling text component renders the marquee message in a ```&lt;span&gt;``` element. It's useful to wrap
+in a component with a ```width```, ````overflow-y: hidden```, and ```white-space: nowrap``` if necessary.
+
 
