@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Blink timeout={2000} smoothing="ease-out">
+        <Blink timeout={1000} smoothing="ease">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
                 Edit <code>src/App.tsx</code> and save to reload.
